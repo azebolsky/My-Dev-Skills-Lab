@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    background-color: rgb(157, 194, 132);
+    text-align: center;
+}
+
+header {
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column wrap;
+}
+
+header, main, section {
+    width: 700px;
+    text-align: center;
+}
+
+input {
+    width: 400px;
+}
+
+input, .btn-add {
+    color: green;
+    border: 2px solid green;
+}
