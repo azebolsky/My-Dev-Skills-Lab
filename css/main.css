@@ -22,14 +22,31 @@ body {
 
 header, main, section {
     width: 700px;
-    text-align: center;
 }
 
 input {
-    width: 400px;
+    width: 70%;
 }
 
 input, .btn-add {
     color: green;
     border: 2px solid green;
+}
+
+ul {
+    list-style-type: none;
+    color: orange;
+}
+
+.btn {
+    margin-right: 5px;
+}
+
+li {
+    margin: 2px;
+}
+
+.btn-add {
+    width: 28%;
+    margin-left: 2%;
 }
